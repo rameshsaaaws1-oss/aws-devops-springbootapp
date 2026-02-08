@@ -18,7 +18,7 @@ public class TestController {
     }
 
     @GetMapping("/welcome")
-    public String getMessage() {
+    public String getWelcomeMessage() {
         return "Welcome to SpringBoot Application Demo.";
     }
 }
